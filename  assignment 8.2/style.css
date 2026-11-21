@@ -1,0 +1,37 @@
+/*
+this is a comment 
+rule syntax: 
+selector {
+	property: value;
+}
+ /*selector = p*/
+ * {
+ 	box-sizing: border-box;
+ }
+ body{
+ 	width: 100vw;
+ 	height: 100vh;
+ 	margin: 0;
+ }
+p {
+	font-size: 100px; 
+}
+.blue{
+	color: white;
+	background-color: navy;
+}
+h1.blue{
+	color: white;
+}
+.purple{
+	background-color: rebeccapurple;
+}
+.big.purple{
+	background-color: plum;
+}
+.big{
+	background-color: mediumpurple;
+}
+#important{
+	font-family: monospace;
+}
